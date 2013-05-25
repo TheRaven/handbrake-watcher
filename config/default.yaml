@@ -1,5 +1,5 @@
 watcher:
   input_folder: ./input
   output_folder: ./output
-  work_folder: ./work
-      
+handbrake:
+  command: HandBrakeCLI -i %s -o %s --preset="Universal" 
