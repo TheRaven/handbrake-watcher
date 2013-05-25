@@ -1,0 +1,13 @@
+{
+  "name": "handbrake-watcher",
+  "version": "0.1.0",
+  "main": "app.js",
+  "description": "Watches a folder",
+  "author": "Yannick Simard <ysimard@gmail.com>",
+  "directories": {"config": "./config"},
+  "dependencies": {
+    "js-yaml" : "0.3.x",
+	"config": "0.4.20",
+	"chokidar": "0.6.2"
+  }
+}
